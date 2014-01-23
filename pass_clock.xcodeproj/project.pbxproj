@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBD0DA1B1890F14300F7E472 /* se_piano1_g_chord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBD0DA1A1890F14300F7E472 /* se_piano1_g_chord.mp3 */; };
+		EBD0DA1D1890F1EC00F7E472 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD0DA1C1890F1EC00F7E472 /* AVFoundation.framework */; };
+		EBD0DA1F1890F64200F7E472 /* bom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBD0DA1E1890F64200F7E472 /* bom.mp3 */; };
+		EBD0DA211890F78100F7E472 /* morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBD0DA201890F78100F7E472 /* morning.mp3 */; };
+		EBD0DA231890F7D300F7E472 /* afternoon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBD0DA221890F7D300F7E472 /* afternoon.mp3 */; };
 		EBF9EB961862C4D300426709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9EB951862C4D300426709 /* UIKit.framework */; };
 		EBF9EB981862C4D300426709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9EB971862C4D300426709 /* Foundation.framework */; };
 		EBF9EB9A1862C4D300426709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF9EB991862C4D300426709 /* CoreGraphics.framework */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EBD0DA1A1890F14300F7E472 /* se_piano1_g_chord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se_piano1_g_chord.mp3; sourceTree = "<group>"; };
+		EBD0DA1C1890F1EC00F7E472 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EBD0DA1E1890F64200F7E472 /* bom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bom.mp3; sourceTree = "<group>"; };
+		EBD0DA201890F78100F7E472 /* morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morning.mp3; sourceTree = "<group>"; };
+		EBD0DA221890F7D300F7E472 /* afternoon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = afternoon.mp3; sourceTree = "<group>"; };
 		EBF9EB921862C4D300426709 /* pass_clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pass_clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF9EB951862C4D300426709 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EBF9EB971862C4D300426709 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD0DA1D1890F1EC00F7E472 /* AVFoundation.framework in Frameworks */,
 				EBF9EB961862C4D300426709 /* UIKit.framework in Frameworks */,
 				EBF9EB981862C4D300426709 /* Foundation.framework in Frameworks */,
 				EBF9EB9A1862C4D300426709 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +98,7 @@
 		EBF9EB891862C4D300426709 = {
 			isa = PBXGroup;
 			children = (
+				EBD0DA1C1890F1EC00F7E472 /* AVFoundation.framework */,
 				EBF9EB9B1862C4D300426709 /* pass_clock */,
 				EBF9EBBF1862C4D300426709 /* pass_clockTests */,
 				EBF9EB941862C4D300426709 /* Frameworks */,
@@ -130,6 +142,10 @@
 		EBF9EB9C1862C4D300426709 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBD0DA1A1890F14300F7E472 /* se_piano1_g_chord.mp3 */,
+				EBD0DA1E1890F64200F7E472 /* bom.mp3 */,
+				EBD0DA201890F78100F7E472 /* morning.mp3 */,
+				EBD0DA221890F7D300F7E472 /* afternoon.mp3 */,
 				EBF9EB9D1862C4D300426709 /* pass_clock-Info.plist */,
 				EBF9EB9E1862C4D300426709 /* InfoPlist.strings */,
 				EBF9EBA11862C4D300426709 /* main.m */,
@@ -237,6 +253,10 @@
 				EBF9EBAA1862C4D300426709 /* Default@2x.png in Resources */,
 				EBF9EBAC1862C4D300426709 /* Default-568h@2x.png in Resources */,
 				EBF9EBAF1862C4D300426709 /* MainStoryboard.storyboard in Resources */,
+				EBD0DA1B1890F14300F7E472 /* se_piano1_g_chord.mp3 in Resources */,
+				EBD0DA1F1890F64200F7E472 /* bom.mp3 in Resources */,
+				EBD0DA211890F78100F7E472 /* morning.mp3 in Resources */,
+				EBD0DA231890F7D300F7E472 /* afternoon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +474,7 @@
 				EBF9EBCC1862C4D300426709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBF9EBCD1862C4D300426709 /* Build configuration list for PBXNativeTarget "pass_clockTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +483,7 @@
 				EBF9EBCF1862C4D300426709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

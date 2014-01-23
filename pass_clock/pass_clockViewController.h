@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface pass_clockViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *timelabel;
+@property (weak, nonatomic) IBOutlet UILabel *daylabel;
+
+- (IBAction)music:(id)sender;
 
 @end
